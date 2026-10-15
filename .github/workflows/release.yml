@@ -19,7 +19,7 @@ concurrency:
 
 jobs:
   release:
-    runs-on: macos-14
+    runs-on: [self-hosted, macOS, skills-manager-deploy-macos]
 
     steps:
       - name: Check Out
